@@ -7,7 +7,8 @@ import { Producto } from '../models/producto';
   providedIn: 'root'
 })
 export class ProductoService {
-  url="https://crud-express-producto.herokuapp.com/api/productos/";
+ // url = 'http://localhost:4000/api/productos/';
+  url="http://crud-express-producto.herokuapp.com/api/productos/";
 
   constructor(private http: HttpClient) { }
 
